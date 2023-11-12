@@ -262,9 +262,7 @@ function getFibonacciNumber(index) {
   let numA = 0;
   let numB = 1;
   let fib = 0;
-  if (index === 0) {
-    return 0;
-  }
+  if (index === 0) return 0;
   for (let i = 2; i <= index; i += 1) {
     fib = numB + numA;
     numA = numB;
